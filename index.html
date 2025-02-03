@@ -5,12 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tea House </title>
+
   <!-- Google Font Cdn -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/1d5b89be9d.js" crossorigin="anonymous"></script>
+
   <!-- Tailwind Css -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -37,16 +40,16 @@
                     max-w-screen-xl mx-auto px-16 lg:px-28">
 
     <!-- Text content -->
-    <div>
-      <h1 class="text-[#1C1C1C] text-[6.67rem]  md:text-[5rem] font-extrabold ">
+    <div class="text-center lg:text-left  space-y-5">
+      <h1 class="text-[#1C1C1C] text-[4rem]  md:text-[5rem] font-extrabold ">
         It's good <br> tea time at The <br> Tea House</h1>
 
-      <p class="text-[#777777] text-[1.5rem] font-medium w-3/4">
+      <p class="text-[#777777] text-[1.34rem] md:text-[1.5rem] font-medium w-3/4 mx-auto md:mx-0">
         Tea and Botanical Solutions Supplier Give Optimum
         Satisfaction To Your Taste Buds.</p>
       <br>
 
-      <button class="text-[#FFFFFF] text-[1.67rem] font-bold 
+      <button class="text-[#FFFFFF] text-[1.2rem] md:text-[1.5rem] font-bold 
                     bg-gradient-to-r from-[#FF0000] to-[#FF8938] 
                     py-5 px-8  rounded-xl"> Explore More
         <i class="fa-solid fa-arrow-right -rotate-45"></i>
@@ -54,28 +57,27 @@
     </div>
 
     <!-- Image content -->
-    <div class="relative">
+    <div class="">
       <!-- image -->
       <div>
-        <img class="w-full " src="images/banner.png" alt="">
+        <img class="w-full lg:max-w-[656px]" src="images/banner.png" alt="">
       </div>
       <!-- card -->
-      <div class="absolute 
-        top-[150px] md:top-[270px] lg:top-[320px]
-        left-[70px] lg:left-[70px]
-        px-2 md:px-10
-        py-2 md:py-5
-        flex items-center bg-white shadow-lg 
-        rounded-lg">
+      <div class="relative  w-2/4
+        -top-[80px]  lg:-top-[100px] left-[40px]
+        px-2 lg:px-6
+        py-2 lg:py-4
+        flex items-center bg-white shadow-lg rounded-lg">
         <!-- Icon -->
-        <div><i class="fa-solid fa-star text-5xl text-[#FFC850] "></i></div>
+        <div><i class="fa-solid fa-star text-4xl text-[#FFC850] "></i></div>
         <!-- Text -->
         <div class="ml-2">
-          <h2 class="lg:text-[2.5rem] font-bold">5.00</h2>
+          <h2 class="text-[1.5rem] lg:text-[2.5rem] text-left  font-bold">5.00</h2>
           <p class="text-[#777777] font-semibold">Trust Pilot Ratings</p>
         </div>
       </div>
     </div>
+
   </header>
 
   <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
